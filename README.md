@@ -28,6 +28,36 @@ Implementa **Iterated Conditional Modes (ICM)**, un algoritmo de búsqueda local
 
 ---
 
+### Task 2.4 - Benchmark
+
+**Archivo:** `benchmark.py`
+
+Realiza una comparación entre los tres algoritmos, dando como resultado lo siugiente:
+
+```bash
+Backtracking
+Solución: {'M1': 'S1', 'M2': 'S2', 'M3': 'S1', 'M4': 'S2', 'M5': 'S2', 'M6': 'S1', 'M7': 'S3', 'M8': 'S3'}
+Válida: True
+Tiempo: 0.000083 segundos
+
+Beam Search (K=5)
+Solución: {'M1': 'S1', 'M2': 'S2', 'M3': 'S1', 'M4': 'S2', 'M5': 'S2', 'M6': 'S1', 'M7': 'S3', 'M8': 'S3'}
+Válida: True
+Tiempo: 0.000076 segundos
+
+Local Search ICM
+Solución: {'M1': 'S3', 'M2': 'S2', 'M3': 'S2', 'M4': 'S1', 'M5': 'S1', 'M6': 'S3', 'M7': 'S3', 'M8': 'S1'}
+Válida: True
+Tiempo: 0.000025 segundos
+
+Algoritmo              ¿Solución?   Tiempo (s)
+Backtracking           Sí           0.000083
+Beam Search (K=5)      Sí           0.000076
+Local Search ICM       Sí           0.000025
+```
+
+---
+
 ### Cómo Ejecutar
 
 ```bash
