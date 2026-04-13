@@ -1,6 +1,7 @@
 # Laboratorio 8
 
 Se tienen 8 microservicios (M1–M8) que deben asignarse a 3 servidores físicos (S1, S2, S3) respetando las siguientes restricciones
+
 ---
 
 ### Task 2.1 – Backtracking Search con Forward Checking
