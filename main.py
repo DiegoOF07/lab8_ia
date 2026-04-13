@@ -6,7 +6,7 @@ from local_search import local_search_icm
 
 
 def print_solution(name, solution):
-    print(f"\n{'='*10}{name}{'='*10}")
+    print(name)
     if solution:
         print("Solución válida encontrada:")
         for k, v in solution.items():

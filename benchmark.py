@@ -23,7 +23,7 @@ def run_benchmark():
     elapsed_icm = time.perf_counter() - start
     resultados["Local Search ICM"] = {"solucion": sol_icm, "tiempo": elapsed_icm}
 
-    print(f"\n{'='*10}Task 2.4{'='*10}")
+    print("Task 2.4")
 
     for nombre, datos in resultados.items():
         sol = datos["solucion"]
